@@ -1,0 +1,31 @@
+body, html {
+    margin: 10;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding-right: 10%;
+    padding-left: 2%;
+  }
+  
+  .rectangle {
+    height: 800px;
+    background-color: #000000;
+    margin: 0px;
+    border-radius: 18px
+  }
+  
+  .thin {
+    width:100px;
+  }
+  
+  .thick {
+    width: 400px;
+  }
+  
